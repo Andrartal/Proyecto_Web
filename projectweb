@@ -5,42 +5,64 @@
 <title>El Genero Musical </title>
 </head>
 
-<body>
-
+<body background="C:\Users\User\Documents\Carpeta de Andrés\ImagenWeb\azul.jpg">
 <div id="web">
+<table width="200%">
+<form>
+<font color="white">
+<div>Buscar:<input type="text" name="Busqueda" onchange="ValidarBusqueda(form.Busqueda.value)" </div><br>
+</font>
+</form>
+
+<form>
+<center>
+<font color="white">
+<label> Nombre de Usuario/Correo Electrónico:</label>
+<input type="text" name="user" ><br>
+<label>Contraseña:</label>
+<input type="Password" name="pass" ></br>
+<input type="Button" name="BotonEntrar" value="Entrar" onclick="valida(pass.value)">
+</font>
+</center>
+</form>
+
 <header>
-<hgroup><h1>Lo Mejor Del Genero Musical</h1>
+<hgroup> 
+<h1> <center> <font color="silver"> Lo Mejor Del Genero Musical </font>  </center> </h1>
 </hgroup>
 </header>
 
 <nav>
-<ul>
+<font color="white">
+<ul> 
 <li>Lo mas reciente</li>
 <li>Nuevas Musicas</li>
 <li>Artistas</li>
 <li>Letras de canciones</li>
-<ul>
+<ul> 
+</font>
 </nav>
 
 <div id="main">
 <div id="Escucha tu musica favorita, ya sea regueton, baladas, bachatas, pop, musica electrónica y mucho mas ">
 <section>
-Noticias Nacionales 
+<h2> <font color="silver" > Noticias Nacionales </font> <h2>
+</section>
 <article>
-<header> <h3>Noticia 1</h3></header>
+<header> <h3> <font color="green"> Noticia 1  </font> </h3></header>
 
 <div>
-<p>El próximo 17 de octubre Quito acogerá un concierto en el que se presentarán dos populares grupos latinoamericanos, los mexicanos Molotov y los uruguayos Cuarteto De Nos. Molotov es una de las formaciones más rebeldes del rock latino con una popularidad que ha traspasado las fronteras de América y un estilo que fusiona distintos géneros.</p>
+<p> <font color="white"> El próximo 17 de octubre Quito acogerá un concierto en el que se presentarán dos populares grupos latinoamericanos, los mexicanos Molotov y los uruguayos Cuarteto De Nos. Molotov es una de las formaciones más rebeldes del rock latino con una popularidad que ha traspasado las fronteras de América y un estilo que fusiona distintos géneros. </font> </p>
 </div>
 
 <footer> </footer>
 </article>
 <hr/>
 <article>
-<header> <h3>Noticia 2</h3></header>
+<header> <h3> <font color="green" > Noticia 2  </font> </h3> </header>
 
 <div>
-<p>Este sábado 5 de octubre se llevará a cabo en los bajos del Palacio Municipal una actución de los veteranos músicos Pacheco & Napolitano, que contarán con el apoyo de Bilo Albán y Jairo Vargas, de Batukka, Lalo Wong y otros músicos que pasarán por el escenario. </p>
+<p> <font color="white"> Este sábado 5 de octubre se llevará a cabo en los bajos del Palacio Municipal una actución de los veteranos músicos Pacheco & Napolitano, que contarán con el apoyo de Bilo Albán y Jairo Vargas, de Batukka, Lalo Wong y otros músicos que pasarán por el escenario. </font> </p>
 </div>
 
 <footer> </footer>
@@ -48,29 +70,24 @@ Noticias Nacionales
 </section>
 
 <section>
-Noticias nternacionales
+<h2> <font color="silver" > Noticias Internacionales  </font> </h2>
 </section>
 <article>
-<header> <h3>Noticia 3</h3></header>
+<header> <h3> <font color="green" > Noticia 3  </font> </h3> </header>
 
 <div>
-<p> Los reguetoneros Wisin y Yandel  se separan y lo hacen con un concierto en la capital. La presentación será el sábado, a las 21:00, en el coliseo General Rumiñahui.
+<p> <font color="white"> Los reguetoneros Wisin y Yandel  se separan y lo hacen con un concierto en la capital. La presentación será el sábado, a las 21:00, en el coliseo General Rumiñahui.
 
-El dúo puertorriqueño es la atracción principal de la noche de fiesta denominada Urban Fest Platinum 6 2013. Nueve exponentes del reguetón ecuatoriano forman parte de la cartelera que abrirá el concierto principal. </p>
+El dúo puertorriqueño es la atracción principal de la noche de fiesta denominada Urban Fest Platinum 6 2013. Nueve exponentes del reguetón ecuatoriano forman parte de la cartelera que abrirá el concierto principal. </font> </p>
 </div>
 
 <footer> </footer>
 </article>
 <hr/>
 <article>
-<header> <h3>Noticia 4</h3></header>
-
+<header> <h3> <font color="green" > Noticia 4 </font> </h3> </header>
 <div>
-<p>La performance de Miley Cyrus en los Video Music Awards 2013 dio mucho que hablar. Pero hay voces más 
-
-autorizadas que otras. Para eso, por ejemplo, está Cyndi Lauper, que conoce a la ex Hannah Montana y tiene 
-
-bastante experiencia en el rubro.</p>
+<p><font color="white"> La performance de Miley Cyrus en los Video Music Awards 2013 dio mucho que hablar. Pero hay voces más autorizadas que otras. Para eso, por ejemplo, está Cyndi Lauper, que conoce a la ex Hannah Montana y tiene bastante experiencia en el rubro. </font></p>
 </div>
 
 <footer> </footer>
@@ -83,17 +100,52 @@ bastante experiencia en el rubro.</p>
 </audio>
 
 
-<h2>Video musical</h2>
+<h2> <font color="silver"> Video musical </font></h2>
 <div style="text-align: center">
 <video src="C:/Users/User/Documents/Carpeta de Andrés/Video/Wisin & Yandel- Algo Me Gusta De Ti ft Chris Brown ft T Pain.mp4"  controls="" poster="C:/Users/User/Documents/Carpeta de Andrés/Video/Poster.png" width="900px"  height="480px"  type="video/mp4"  > 
 </video>
 </div>
 
 </div>
-<footer>
-<span>Facebook  Twitter  Gmail</span>
+<footer> 
+<font color="white">
+<span>Facebook   Twitter  Gmail</span>
+</font>
 </footer>
  
-
+</div>
 </body>
 </html>
+
+<script type="text/JavaScript">
+function ValidarBusqueda(valor)
+{
+if(/^[a-z-A-Z\D]+$/. test(valor))
+{
+alert(valor+" este dato si existe")
+return(true)
+}
+else
+{
+alert(valor+" este dato no existe")
+return(false)
+}
+}
+
+function valida(user){
+if(/([a-z+A-Z+0-9]{8})/.test(user)){
+alert('Ingresando');
+}else{
+alert('Error');
+}
+}
+
+function valida(pass){
+if(/([a-z+A-Z+0-9]{8})/.test(pass)){
+alert('Ingresando');
+}else{
+alert('Error');
+}
+}
+
+</script>
